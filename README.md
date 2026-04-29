@@ -1,7 +1,7 @@
-# NiyyahTrack — Zakat & Charity Analytics Pipeline
+# NiyyahTracks — Zakat & Charity Analytics Pipeline
 
 ## Overview
-Niyyah Tracks is an analytics engineering project designed to model and analyze charitable giving data. The system transforms raw data related to donations, projects, donors, and testimonials into structured models and meaningful metrics that evaluate the impact and efficiency of charitable initiatives.
+NiyyahTracks is an analytics engineering project designed to model and analyze charitable giving data. The system transforms raw data related to donations, projects, donors, and testimonials into structured models and meaningful metrics that evaluate the impact and efficiency of charitable initiatives.
 <br><br>
 This project focuses on building a clean data pipeline using dbt and PostgreSQL, following best practices in data modeling and analytics engineering.
 
