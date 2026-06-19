@@ -168,7 +168,7 @@ JOIN total_donations ON c.project_name = total_donations.project_name
 
 ### Key Metric
 
-**Cost per Beneficiary** — a derived metric to evaluate charitable project efficiency:
+**Cost per Beneficiary** — calculated as total donations raised per project divided by testimonial count, used as a directional proxy for beneficiary reach. *Note: true beneficiary counts aren't available in the source data, so testimonial volume serves as a conservative stand-in — likely undercounting actual reach, since not every beneficiary leaves a testimonial.*
 `cost_per_beneficiary = total_donations ÷ number_of_testimonials`
 
 ### Setup (v1)
