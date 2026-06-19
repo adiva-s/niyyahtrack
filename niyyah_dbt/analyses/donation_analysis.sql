@@ -23,6 +23,7 @@ HAVING COUNT(donation_id) > 1
 ORDER BY donation_count DESC
 
 -- Query 5: cost per beneficiary
+-- proxy metric: testimonial_count stands in for true beneficiary count (not tracked in source data)
 WITH total_donations AS (
     SELECT project_name, SUM(donation_amount) AS total_raised
     FROM {{ ref('fct_donations')}} 
